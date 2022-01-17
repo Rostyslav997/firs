@@ -1,0 +1,84 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.A{
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.all1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    column-gap: 10px;
+}
+.F{
+    height: 360px;
+    width: 50px;
+    border-radius: 5px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.B{
+    border-radius: 5px;
+    background: silver;
+    width: 440px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.CDE{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.C{
+    background: silver;
+    width: 140px;
+    height: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.D{
+    background: silver;
+    width: 140px;
+    height: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.E{
+    background: silver;
+    width: 140px;
+    height: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
