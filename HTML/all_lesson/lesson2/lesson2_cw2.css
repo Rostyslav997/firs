@@ -1,0 +1,15 @@
+.box{
+    height: 300px;
+    width: 400px;
+    background: silver;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: #c97b00 -20px -30px 30px 7px;
+}
+.text{
+    padding-left: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-left: #c40000 solid 5px;
+}
