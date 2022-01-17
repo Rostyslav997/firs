@@ -1,0 +1,116 @@
+.boss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.manager{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.A{
+    background: silver;
+    border-radius:5px;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.H{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 230px;
+    background: silver;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.left{
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.BCD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.EFG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.D{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.E{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.G{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 105px;
+    height: 110px;
+    border-radius: 5px;
+    font-size: 30px;
+}
