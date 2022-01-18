@@ -1,0 +1,58 @@
+.df{
+    display: flex;
+}
+.align-i-c{
+    align-items: center;
+}
+.fl-d-c{
+    flex-direction: column;
+}
+.r-g{
+    row-gap: 40px;
+}
+.c-g{
+    column-gap: 40px;
+}
+.c-g2{
+    column-gap: 160px;
+}
+.justify-c-space{
+    justify-content: space-between;
+}
+.justify-c-c{
+    justify-content: center;
+}
+.positrel{
+    position: relative;
+    top: 46px;
+}
+.back{
+    background: gainsboro;
+}
+.border{
+    border: 3px solid #dc8400;
+}
+.border-r{
+    border-radius: 50%;
+}
+.w200{
+    width: 200px;
+}
+.h300{
+    height: 300px;
+}
+.w80{
+    width: 80px;
+}
+.h80{
+    height: 80px;
+}
+.color{
+    color:#dc8400;
+}
+.fnt-s{
+    font-size: 40px;
+}
+.fnt-s2{
+    font-size: 20px;
+}
