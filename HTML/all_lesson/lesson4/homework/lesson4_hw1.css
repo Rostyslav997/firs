@@ -1,0 +1,42 @@
+.df{
+    display: flex;
+}
+.fl-d-c{
+    flex-direction: column;
+}
+.justify-c-c{
+    justify-content: center;
+}
+.justify-c-space{
+    justify-content: space-between;
+}
+.align-i-c{
+    align-items: center;
+}
+.clr{
+    color: white;
+}
+.fnt-s{
+    font-size: 20px;
+}
+.r-g{
+    row-gap: 10px;
+}
+.c-g{
+    column-gap: 10px;
+}
+.w100{
+    width: 100px;
+}
+.h100{
+    height: 100px;
+}
+.h210{
+    height: 210px;
+}
+.back{
+    background: #0064d7;
+}
+.border-r{
+    border-radius: 5px;
+}
