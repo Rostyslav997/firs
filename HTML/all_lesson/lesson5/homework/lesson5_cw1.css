@@ -1,0 +1,54 @@
+.df{
+    display: flex;
+}
+.fl-d-c{
+    flex-direction: column;
+}
+.justify-c-c{
+    justify-content: center;
+}
+.justify-c-space{
+    justify-content: space-between;
+}
+.align-i-c{
+    align-items: center;
+}
+.back{
+    background: #4f4f4f;
+}
+.fnt-s{
+    font-size: 40px;
+}
+.clr{
+    color: #a85555;
+}
+.c-g{
+    column-gap: 10px;
+}
+.r-g{
+    row-gap: 10px;
+}
+.w100{
+    width: 100px;
+}
+.w400{
+    width: 400px;
+}
+.h100{
+    height: 100px;
+}
+.h300{
+    height: 300px;
+}
+.w510{
+    width: 510px;
+}
+.h210{
+    height: 210px;
+}
+.w290{
+    width: 290px;
+}
+@media screen and (min-width: 0px) and (max-width: 900px) {
+
+}
