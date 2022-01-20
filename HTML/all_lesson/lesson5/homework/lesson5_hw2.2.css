@@ -1,0 +1,75 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    width: 500px;
+    height: 100px;
+}
+.down{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    height: 200px;
+    width: 100px;
+}
+.BCDE{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    width: 390px;
+    height: 100px;
+}
+.CDE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    width: 120px;
+    height: 90px;
+}
+@media screen and (max-width: 900px) {
+    .down{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .A{
+        width: 250px;
+        height: 50px;
+    }
+    .B{
+        width: 250px;
+    }
+    .C{
+        width: 75px;
+        height: 75px;
+    }
+    .F{
+        width: 250px;
+        height: 50px;
+    }
+}
