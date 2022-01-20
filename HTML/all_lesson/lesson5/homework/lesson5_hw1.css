@@ -59,7 +59,7 @@
 
     }
     .df.fl-d-c.r-g.t{
-        flex-direction: row;
+        flex-direction: column;
         column-gap: 10px;
     }
     .df.fl-d-c.r-g.g{
@@ -75,8 +75,12 @@
         width: 210px;
     }
     .df.justify-c-c.align-i-c.back.w290.h210.clr.fnt-s{
-        height: 300px;
-        width: 210px;
+        height: 400px;
+        width: 510px;
+    }
+    .df.justify-c-c.align-i-c.back.w290.h300.clr.fnt-s{
+        height: 100px;
+        width: 510px;
     }
 
 }

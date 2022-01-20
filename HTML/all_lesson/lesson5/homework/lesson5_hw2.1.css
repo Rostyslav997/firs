@@ -1,0 +1,54 @@
+.all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background: #4f4f4f;
+}
+.BC{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    width: 340px;
+    height: 300px;
+}
+.C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+    height: 300px;
+    width: 150px;
+}
+@media screen and (max-width: 900px) {
+    .BC{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .A{
+        height: 100px;
+        width: 400px;
+    }
+    .B{
+        width: 400px;
+    }
+    .C{
+        height: 100px;
+        width: 400px;
+    }
+
+}
