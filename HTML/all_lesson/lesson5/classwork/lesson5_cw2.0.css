@@ -1,0 +1,237 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    align-items: center;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+    border: 5px solid black;
+    padding: 5px;
+}
+.one1{
+    display: flex;
+    background: #7676ff;
+    width: 150px;
+    height: 50px;
+}
+.one2{
+    display: flex;
+    background: #7676ff;
+    width: 150px;
+    height: 50px;
+}
+.two{
+    background: #7676ff;
+    width: 500px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 5px;
+}
+.three{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    border: 5px solid black;
+    padding: 5px;
+}
+.three1{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.threeins{
+    background: #7676ff;
+    width: 110px;
+    height: 70px;
+}
+.four{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.fourr{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 5px solid black;
+    padding: 5px;
+}
+.fourrins{
+    background: #7676ff;
+    width: 80px;
+    height: 80px;
+}
+.fourrins1{
+    background: #7676ff;
+    width: 80px;
+    height: 80px;
+}
+.fourl{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border: 5px solid black;
+    padding: 5px;
+}
+.fourltop{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.fourlbut{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.fourlef{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.ins{
+    background: #7676ff;
+    width: 180px;
+    height: 80px;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 5px;
+}
+.fivetop{
+    background: #7676ff;
+    width: 500px;
+    height: 30px;
+}
+.fivebut{
+    background: #7676ff;
+    width: 100px;
+    height: 30px;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .one{
+        column-gap: 110px;
+
+    }
+    .all{
+        row-gap: 5px;
+    }
+    .one1{
+        width: 70px;
+    }
+    .one2{
+        width: 70px;
+    }
+    .two{
+        width: 250px;
+        height: 100px;
+    }
+    .three{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .threeins{
+        width: 115px;
+    }
+    .four{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .fourlbut{
+        display: none;
+    }
+    .ins {
+        width: 110px;
+        height: 30px;
+    }
+    .fourr{
+        flex-direction: row;
+        column-gap: 3px;
+    }
+    .fourrins{
+        width: 60px;
+        height: 60px;
+    }
+    .fourrins1{
+        width: 60px;
+        height: 60px;
+    }
+    .fivetop{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .one{
+        column-gap: 0;
+    }
+    .all{
+        row-gap: 5px;
+    }
+    .one1{
+        width: 100px;
+        height: 40px;
+    }
+    .one2{
+        width: 100px;
+        height: 40px;
+    }
+    .two{
+        width: 200px;
+        height: 100px;
+    }
+    .three{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .threeins{
+        width: 90px;
+        height: 60px;
+    }
+    .four{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .fourlbut{
+        display: none;
+    }
+    .fourlef{
+        row-gap: 5px;
+    }
+    .fourltop{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .ins{
+        width: 200px;
+        height: 25px;
+    }
+    .fourr{
+        row-gap: 5px;
+    }
+    .fourrins{
+        width: 200px;
+        height: 35px;
+    }
+    .fourrins1{
+        width: 200px;
+        height: 100px;
+    }
+    .fivetop{
+        width: 200px;
+        height: 20px;
+    }
+    .fivebut{
+        height: 20px;
+    }
+
+}
