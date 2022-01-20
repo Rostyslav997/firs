@@ -38,17 +38,45 @@
     height: 100px;
 }
 .h300{
-    height: 300px;
+    flex-basis: 300px;
 }
 .w510{
     width: 510px;
 }
 .h210{
-    height: 210px;
+    flex-basis: 210px;
 }
 .w290{
     width: 290px;
 }
 @media screen and (min-width: 0px) and (max-width: 900px) {
+    .df.justify-c-space.align-i-c.c-g.r-g{
+        flex-direction: column;
+    }
+    .df.fl-d-c.r-g.h{
+        flex-direction: row;
+        column-gap: 10px;
+
+    }
+    .df.fl-d-c.r-g.t{
+        flex-direction: row;
+        column-gap: 10px;
+    }
+    .df.fl-d-c.r-g.g{
+        flex-direction: row;
+        column-gap: 10px;
+
+    }
+    .df.justify-c-c.align-i-c.back.w100.h300.clr.fnt-s{
+        width: 290px;
+    }
+    .df.justify-c-c.align-i-c.back.w100.h210.clr.fnt-s{
+        height: 100px;
+        width: 210px;
+    }
+    .df.justify-c-c.align-i-c.back.w290.h210.clr.fnt-s{
+        height: 300px;
+        width: 210px;
+    }
 
 }
