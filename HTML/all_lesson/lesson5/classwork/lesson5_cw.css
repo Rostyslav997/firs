@@ -160,7 +160,7 @@
 }
 @media screen and (max-width: 992px) {
     .one{
-        column-gap: 0px;
+        column-gap: 0;
     }
     .all{
         row-gap: 10px;
