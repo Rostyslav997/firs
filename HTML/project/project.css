@@ -1,0 +1,119 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 32px 14px 36px;
+}
+.sprig_formerly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formerly{
+    font-size: 14px;
+}
+.head_center{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    font-size: 16px;
+}
+.head_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+    font-size: 16px;
+}
+.Start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 163px;
+    height: 54px;
+    background: #0e4461;
+    color: white;
+    border-radius: 4px;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu1_left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-bottom: 250px;
+    row-gap: 32px;
+}
+.h2{
+    width: 436px;
+    height: 256px;
+    display: flex;
+    font-size: 60px ;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.Ensure {
+    box-sizing: border-box;
+    width: 435px;
+    height: 96px;
+    font-size: 22px;
+}
+.Start_for{
+    width: 163px;
+    height: 54px;
+    background: #f9c600;
+    border-radius: 4px;
+}
+.Talk{
+    margin-left: 10px;
+    width: 156px;
+    height: 54px;
+    border: 1px solid #0B2330;
+    border-radius: 4px;
+}
+.menu1_right{
+    display: flex;
+}
+.Yellow{
+    display: flex;
+    width: 600px;
+    height: 886px;
+}
+.overyellow{
+    width: 608px;
+    height: 541px;
+    position: relative;
+    top: 100px;
+    right: 700px;
+}
+.Trusted{
+    display: flex;
+    text-align: center;
+    width: 547px;
+    height: 96px;
+    font-size: 42px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 376.5px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    column-gap: 57px   ;
+    margin-left: 100px;
+    margin-top: 30px;
+}
