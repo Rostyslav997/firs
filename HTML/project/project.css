@@ -310,3 +310,7 @@
     font-size: 12px;
     border-radius: 4px;
 }
+.menu2all1{
+    display: flex;
+    column-gap: 90px;
+}
