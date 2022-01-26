@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 1300px;
+    justify-content: center;
 }
 .head{
     display: flex;
@@ -39,6 +40,7 @@
     background: #0e4461;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 }
 .menu1{
     display: flex;
@@ -73,6 +75,7 @@
     height: 54px;
     background: #f9c600;
     border-radius: 4px;
+    cursor: pointer;
 }
 .Talk{
     margin-left: 10px;
@@ -80,6 +83,7 @@
     height: 54px;
     border: 1px solid #0B2330;
     border-radius: 4px;
+    cursor: pointer;
 }
 .menu1_right{
     display: flex;
@@ -116,4 +120,193 @@
     column-gap: 57px   ;
     margin-left: 100px;
     margin-top: 30px;
+}
+.Frame{
+    display: flex;
+    justify-content: space-between;
+    width: 1276px;
+    height: 494px;
+    background: #51cebc;
+    margin-left: 32px;
+    margin-top: 192px;
+}
+.Frame_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 115px;
+    row-gap: 34px;
+}
+.Modern{
+    font-size: 34px;
+}
+.So_teams{
+    font-size: 22px;
+}
+.Sprig_makes{
+    margin-top: 191px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    width: 611px;
+    margin-left: 344.5px;
+}
+.onboarding{
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+}
+.buttom_start{
+    display: flex;
+    justify-content: center;
+    margin-top: 113px;
+}
+.menu_target{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #BD78F0;
+    width: 1150px;
+    height: 537px;
+    margin-left: 148px;
+    margin-top: 160px;
+}
+.targer_left{
+    display: flex;
+    position: relative;
+    right: 116px;
+}
+.target_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 35px;
+    margin-right: 116px;
+}
+.target_your{
+    font-size: 42px;
+    width: 485px;
+}
+.get{
+    font-size: 17px;
+    width: 550px;
+}
+.Solutions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 136px;
+    margin-left: 148px;
+    row-gap: 16px;
+}
+.Solut{
+    font-size: 14px;
+    color: #6A7981;
+}
+.How{
+    width: 593px;
+    font-size: 42px;
+}
+.and_helps{
+    color: #375361;
+    font-size: 22px;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 121px;
+    margin-top: 173px;
+    margin-left: 148px;
+}
+.menu2all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 134px;
+}
+.message{
+    display: flex;
+    background: #BD78F0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Context{
+    font-size: 34px;
+    margin-top: 23px;
+}
+.keep{
+    font-size: 17px;
+    width: 484px;
+    margin-top: 25px;
+    color: #375361  ;
+}
+.Lear_more{
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 144px;
+    height: 44px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.message2{
+    display: flex;
+    background: #51cebc;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.message3{
+    display: flex;
+    background: #FE9F28;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.menu2under{
+    display: flex;
+    column-gap: 8px;
+    margin-top: 21px;
+}
+.microsurv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E7EAEB;
+    color: #61757E;
+    width: 228px;
+    height: 23px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.videoques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61757E;
+    background: #E7EAEB;
+    width: 147px;
+    height: 23px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.conctest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 23px;
+    background: #FE9F28;
+    font-size: 12px;
+    border-radius: 4px;
 }
