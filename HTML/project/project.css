@@ -4,6 +4,9 @@
     width: 1300px;
     justify-content: center;
 }
+*{
+    font-family: Roboto;
+}
 .head{
     display: flex;
     justify-content: space-between;
@@ -69,6 +72,7 @@
     width: 435px;
     height: 96px;
     font-size: 22px;
+    color: #375361;
 }
 .Start_for{
     width: 163px;
@@ -313,4 +317,230 @@
 .menu2all1{
     display: flex;
     column-gap: 90px;
+}
+.menu3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 136px;
+    row-gap: 116px;
+    background: #F2EDE7;
+    width: 1300px;
+    height: 960px;
+    justify-content: flex-start;
+}
+.menu3head{
+    margin-top: 96px;
+    margin-left: 122px;
+}
+.features{
+    color: #375361;
+    font-size: 14px;
+}
+.how_sprig{
+    font-size: 60px;
+    width: 994px;
+}
+.menu3down{
+    display: flex;
+    column-gap: 131px;
+    margin-left: 122px;
+}
+.menu3right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.line{
+    background: #C9316F;
+    width: 489px;
+    height: 2px;
+}
+.targetting{
+    display: flex;
+    column-gap: 263px;
+    justify-content: space-between;
+}
+.cont_target{
+    font-size: 24px;
+}
+.target_users{
+    color: #375361;
+    font-size: 17px;
+    width: 493px;
+}
+.targ_right{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    column-gap: 8px;
+}
+.line2{
+    width: 489px;
+    height: 2px;
+    background: #C3CACD;
+}
+.menu4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    margin-left: 148px;
+    justify-content: space-between;
+}
+.menu4left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    justify-content: center;
+}
+.integrat{
+    color: #375361;
+    font-size: 14px;
+}
+.Share{
+    width: 569px;
+    font-size: 34px;
+}
+.connect{
+    color: #375361;
+    font-size: 17px;
+    width: 567px;
+}
+.menu5{
+    display: flex;
+    justify-content: space-between;
+}
+.menu5left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 50px;
+    background: #F2EDE7;
+    width: 462px;
+    height: 505px;
+    padding-left: 115px;
+    padding-top: 80px;
+}
+.Case{
+    color: #375361;
+    font-size: 14px;
+}
+.Trusted1{
+    font-size: 24px;
+    width: 314px;
+    height: 34px;
+}
+.helps_product{
+    font-size: 17px;
+    width: 325px;
+    height: 34px;
+}
+.Read_more{
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 144px;
+    height: 44px;
+    cursor: pointer;
+}
+.menu5right{
+    background: #F9C600;
+    width: 794px;
+    height: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 115px;
+    row-gap: 81px;
+}
+.menu5top{
+    font-size: 34px;
+    width: 557px;
+    height: 240px;
+}
+.menu5down{
+    display: flex;
+    justify-content: flex-start;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    align-items: flex-start;
+    padding-left: 24px;
+}
+.text_photo{
+    font-size: 16px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    background: #0B2330;
+    width: 1300px;
+    margin-top: 60px;
+}
+.downtop{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 53px;
+}
+.Launch{
+    font-size: 42px;
+    width: 590px;
+    text-align: center;
+}
+.create{
+    width: 642px;
+    text-align: center;
+    font-size: 17px;
+}
+.down2{
+    height: 678px;
+    display: flex;
+    flex-direction: column;
+}
+.linedown{
+    height: 1px;
+    width: 1200px;
+    background: #375361;
+    margin: 42px;
+}
+.downcenter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 100px;
+    padding-left: 32px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.prod1{
+    color: #F9C600;
+}
+.underprod{
+    color: white;
+}
+.underprod2{
+    color: white;
+    width: 126px;
+}
+.path{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 498px;
+    padding-left: 268px;
+    margin-top:68px;
+    color: white;
+}
+.logo{
+    display: flex;
+    column-gap: 24px;
 }
