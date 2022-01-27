@@ -352,7 +352,7 @@
 }
 .line{
     background: #C9316F;
-    width: 489px;
+    width: 505px;
     height: 2px;
 }
 .targetting{
@@ -375,7 +375,7 @@
     column-gap: 8px;
 }
 .line2{
-    width: 489px;
+    width: 505px;
     height: 2px;
     background: #C3CACD;
 }
@@ -500,7 +500,7 @@
     font-size: 17px;
 }
 .down2{
-    height: 678px;
+    height: 578px;
     display: flex;
     flex-direction: column;
 }
@@ -536,8 +536,8 @@
     display: flex;
     justify-content: flex-start;
     column-gap: 498px;
-    padding-left: 268px;
-    margin-top:68px;
+    padding-left: 255px;
+    margin-top:98px;
     color: white;
 }
 .logo{
