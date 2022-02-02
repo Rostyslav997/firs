@@ -42,8 +42,9 @@ console.log(s,'cm')
 //         результат помістіть у змінну v.
 let heightC = 10
 let dC = 4
+let pi = 3.14
 let sc = (dC/2)**2
-let v = sc*heightC
+let v = Math.trunc(pi*sc*heightC)
 console.log(v,'m')
 
 //7. У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
