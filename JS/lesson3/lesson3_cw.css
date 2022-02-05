@@ -1,0 +1,33 @@
+.image{
+    width: 200px;
+}
+.simp{
+    padding-top: 150px;
+}
+.simps{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.NAME{
+    font-size: 22px;
+    text-align: center;
+}
+.SURNAME{
+    text-align: center;
+    font-size: 20px;
+}
+.AGE{
+    text-align: center;
+    font-size: 18px;
+}
+.product{
+    padding-top: 150px;
+}
+.photo{
+    width: 400px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
