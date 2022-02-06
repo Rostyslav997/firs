@@ -352,4 +352,3 @@ for (const usersListElement of usersList) {
 </div>`)
 }
 document.write(`</div>`)
-
