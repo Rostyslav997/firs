@@ -16,7 +16,7 @@ for (i of mass){
 let i2 = 0;
 while (i2<mass.length){
     if (i2%2===1){
-        console.log('непарне число',mass[i2])
+        console.log('непарний індекс',mass[i2])
     }
     i2++;
 }
@@ -24,14 +24,14 @@ while (i2<mass.length){
 //перебрати циклом for та вивести  числа тільки з непарним індексом
 for (let i=0; i<mass.length; i++){
     if (i%2===1){
-        console.log('непарне число',mass[i])
+        console.log('непарний індекс',mass[i])
     }
 }
 
 //перебрати циклом while та вивести  числа тільки парні  значення
 let i3 = 0;
 while (i3<mass.length){
-    if (i3%2===0){
+    if (mass[i3]%2===0){
         console.log('парне число',mass[i3])
     }
     i3++;
@@ -39,7 +39,7 @@ while (i3<mass.length){
 
 //перебрати циклом for та вивести  числа тільки парні  значення
 for (let i=0; i<mass.length; i++){
-    if (i%2===0){
+    if (mass[i]%2===0){
         console.log('парне число',mass[i])
     }
 }
@@ -47,7 +47,7 @@ for (let i=0; i<mass.length; i++){
 //замінити кожне число кратне 3 на слово "okten"
 let mass2 = [2,17,13,6,22,31,45,66,100,-18];
 for (let i=0; i<mass2.length; i++){
-    if (i%3===0){
+    if (mass2[i]%3===0){
         mass2[i]='okten';
         console.log('число кратне 3',mass2[i])
     }
@@ -62,7 +62,7 @@ for (let i = mass.length - 1; i >= 0; i--) {
 //всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 let mass3 = [2,17,13,6,22,31,45,66,100,-18];
 for (let i = mass3.length -1; i>=0; i--){
-    if (i%3===0){
+    if (mass3[i]%3===0){
         mass3[i]='okten';
         console.log('число кратне 3 (у зворотньому порядку)',mass3[i])
     }
@@ -70,7 +70,7 @@ for (let i = mass3.length -1; i>=0; i--){
 
 ////перебрати циклом for та вивести  числа тільки парні  значення (задом наперед)
  for (let i = mass.length -1; i>=0; i--){
-     if (i%2===0){
+     if (mass[i]%2===0){
          console.log('парне число (у зворотньому порядку)',mass[i])
      }
  }
@@ -78,7 +78,7 @@ for (let i = mass3.length -1; i>=0; i--){
  //перебрати циклом while та вивести  числа тільки парні  значення (задом наперед)
 let i4 = mass.length-1;
 while (i4>=0){
-    if (i4%2===0){
+    if (mass[i4]%2===0){
         console.log('парне число (у зворотньому порядку)',mass[i4])
     }
     i4--;
@@ -87,7 +87,7 @@ while (i4>=0){
 //перебрати циклом for та вивести  числа тільки з непарним індексом (задом наперед)
 for (let i = mass.length -1; i>=0; i--){
     if (i%2===1){
-        console.log('непарне число (у зворотньому порядку)',mass[i])
+        console.log('непарний індекс (у зворотньому порядку)',mass[i])
     }
 }
 
@@ -95,7 +95,7 @@ for (let i = mass.length -1; i>=0; i--){
 let i5 = mass.length-1;
 while (i5>=0){
     if (i5%2===1){
-        console.log('непарне число (у зворотньому порядку)',mass[i5])
+        console.log('непарний індекс (у зворотньому порядку)',mass[i5])
     }
     i5--;
 }
