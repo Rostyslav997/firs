@@ -34,4 +34,15 @@ function arrObj(obj){
 }
 arrObj(arr)
 
+//створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
+let newarr2 = [];
+function arrSum(arr1,arr2) {
+    for (i=0;i<arr1.length; i++){
+        newarr2.push(arr1[i]+arr2[i]);
+    }
+    console.log(newarr2)
+}
+let a =[1,2,4];
+let b = [4,6,9];
+arrSum(a,b)
 
