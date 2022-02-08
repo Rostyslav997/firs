@@ -3,14 +3,14 @@
 let arr = [];
 for (i=0; i<100; i++){
     arr[i] = i;
-    if (i%2===0){
+    if (arr[i]%2===0){
         console.log(arr[i])
     }
 }
 //заповнити його 50 непарними числами за допомоги циклу.
 for (i=0; i<100; i++){
     arr[i] = i;
-    if (i%2!==0){
+    if (arr[i]%2!==0){
         console.log(arr[i])
     }
 }
