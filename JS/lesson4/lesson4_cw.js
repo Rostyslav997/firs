@@ -8,7 +8,7 @@ function minNumb(a,b,c){
         console.log(c);
     }
 }
-minNumb(1,10,6)
+minNumb(1,10,4)
 
 //створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
 function maxNumb(a,b,c){
@@ -24,16 +24,24 @@ maxNumb(2,4,3)
 
 // створити функцію яка повертає найбільше число з масиву
 function arrMax(arr){
-    let s = Math.max.apply(null,arr)
-    return s;
+    let max = 0;
+    for (i=0; i<arr.length; i++){
+        if (arr[i]>max){
+            max = arr[i];
+        }
+    } return max
 }
-let arr = [1,10,156,7]
+let arr = [2,10,156,1]
 console.log(arrMax(arr))
 
 //створити функцію яка повертає найменьше число з масиву
 function arrMin(arr){
-    let s = Math.min.apply(null, arr)
-    return s;
+    let min = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i]<min){
+            min = arr[i];
+        }
+    } return min
 }
 console.log(arrMin(arr))
 
