@@ -81,7 +81,7 @@ let ob =[
         id:2, name:"Nick", age:23
     },
     {
-        id:2, name:"Sarah", age:20
+        id:3, name:"Sarah", age:20
     }
 ];
 arrayCreat(ob)
