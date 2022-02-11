@@ -25,7 +25,6 @@ let ab = (a,b) => {
             ab(a,b);
         }
     }
-    return;
 }
 ab(20,10)
 
@@ -42,7 +41,7 @@ let chng = (arr,i) => {
 
 let arr = [9,8,0,4];
 chng(arr,0);
-debugger
+
 //Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 let zeroEnd = (arr) => {
     let down = arr.length
@@ -57,3 +56,34 @@ let zeroEnd = (arr) => {
 }
 let arr1 = [1,0,6,0,3];
 zeroEnd(arr1)
+
+
+let zero = (arr) => {
+    let zeroArr=[];
+    let otherArr = [];
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] === 0){
+            zeroArr.push(arr[i]);
+        } else {
+            otherArr.push(arr[i]);
+        }
+    } let newArr = otherArr.concat(zeroArr);
+    console.log(newArr);
+}
+let arr2 = [3,0,4,5,0,9,5]
+zero(arr2);
+
+let newZero = (arr) => {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i]===0){
+            count = count + 1;
+            arr.splice(i,1);
+        }
+    } for (let i = 0; i<count; i++){
+        arr.push(0);
+    }
+    console.log(arr);
+}
+let arr3 = [3,0,4,5,0,9,5];
+newZero(arr3);
