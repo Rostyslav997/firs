@@ -16,18 +16,21 @@ let em2 = 'someeMAIL@gmail.com'
 let em3 = 'someMAIL@i.ua'
 let em4 = 'some.email@gmail.com'
 let valid = (str) => {
-    str.toLowerCase();
-    let g = str.split('@');
-    let n = str.indexOf("@");
-    let s = str.lastIndexOf('.');
-    let incl = str.includes('@');
-    if (g[0].length>0 && incl===true && s>n+2){
+    let low = str.toLowerCase();
+    let split = low.split('@').splice(0,1).join(' ');
+    let have = split.includes('a','b','c','d','e','f','g','h',
+        'i','j','k','l','m','n','o','p','q','r','s','t','u','v','w',
+        'x','y','z')
+    let indxs = low.indexOf("@");
+    let lastIndexOf = low.lastIndexOf('.');
+    let incl = low.includes('@');
+    if (have===true && incl===true && lastIndexOf>indxs+2){
         console.log(true);
     } else {
         console.log(false);
     }
 };
-valid(em3)
+valid(em2)
 
 //є масив, відсортувати його в спадаючому порядку за кількістю елементів в полі modules
 let coursesArray = [
@@ -122,4 +125,3 @@ let cutString = (str,n) => {
     return split.join(' ')
 };
 console.log(cutString(someStr, 2));
-
