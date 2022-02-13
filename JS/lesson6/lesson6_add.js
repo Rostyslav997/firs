@@ -1,7 +1,7 @@
 // Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
 let cutSting = (str,n) => {
     let arr = [];
-    for (i = 0; i<str.length; i=i+n){
+    for (let i = 0; i<str.length; i=i+n){
         arr.push(str.substr(i,n))
     }
     return arr.join(' ')
@@ -29,4 +29,97 @@ let valid = (str) => {
 };
 valid(em3)
 
-//
+//є масив, відсортувати його в спадаючому порядку за кількістю елементів в полі modules
+let coursesArray = [
+    {
+        title: 'JavaScript Complex',
+        monthDuration: 5,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+    },
+    {
+        title: 'Java Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'java core',
+            'java advanced']
+    },
+    {
+        title: 'Python Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'python core',
+            'python advanced']
+    },
+    {
+        title: 'QA Complex',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+    },
+    {
+        title: 'FullStack',
+        monthDuration: 7,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'react',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'node.js',
+            'python',
+            'java']
+    },
+    {
+        title: 'Frontend',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+    }
+];
+console.log(coursesArray.sort((a, b) => {
+    return b.modules.length - a.modules.length;
+}));
+
+//Напишіть функцію count(str, stringsearch), яка повертає кількість символів stringsearch у рядку str.
+let count = (str,stringsearch) => {
+    let counter = 0;
+    for (let i = 0; i<str.length; i++){
+        if (str[i].includes(stringsearch)){
+            counter = counter + 1;
+        }
+    } return counter;
+}
+let someStr = 'Random string for example';
+console.log(count(someStr, 'o'));
+
+//Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
+let cutString = (str,n) => {
+    let split = str.split(' ');
+    split.splice(n)
+    return split.join(' ')
+};
+console.log(cutString(someStr, 2));
+
