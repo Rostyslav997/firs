@@ -14,3 +14,17 @@ let nameClass = function (elem){
 nameClass(document.body);
 console.log(nameClassArr);
 
+
+//
+let nameClassArr2 = [];
+let nameClass2 = function (elem){
+    let childdren = elem.children;
+    for (child of childdren){
+        for (list of child.classList){
+            nameClassArr2.push(list);
+        }
+        nameClass2(child)
+    }
+}
+nameClass2(document.body);
+console.log(nameClassArr2);
